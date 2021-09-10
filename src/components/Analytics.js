@@ -7,11 +7,11 @@ const Analytics = ({live, sold}) => {
   const data = [
     {
       datums: [{x: "", y: sold, r: undefined}],
-      label: 'sold'
+      label: 'Sold'
     },
     {
       datums: [{x: "", y: live, r: undefined}],
-      label: 'live'
+      label: 'Live'
     },
     {
       datums: [{x: "", y: 0, r: undefined}],

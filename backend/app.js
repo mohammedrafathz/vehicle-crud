@@ -16,7 +16,7 @@ const app = express();
 
 //Mongoose setup
 mongoose
-  .connect(keys.mongoURI, {useNewUrlParser: true})
+  .connect('mongodb+srv://admin:k1nbfh8nECiVuxjv@app-v1.ildsv.mongodb.net/vehicles-db?retryWrites=true&w=majority', {useNewUrlParser: true})
   .then(() => console.log('MongoDB Connected'))
   .catch(err => console.log(err));
 
